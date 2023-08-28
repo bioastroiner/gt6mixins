@@ -1,7 +1,6 @@
 package bioast.mods.gt6m;
 
 import bioast.mods.gt6m.proxy.CommonProxy;
-import bioast.mods.gt6m.scanner.item.ScannerMultiTool;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.*;
@@ -10,9 +9,8 @@ import gregapi.api.Abstract_Proxy;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import static bioast.mods.gt6m.GT6M_Mod.*;
-
-@Mod(modid = MODID, version = VERSION, name = MODNAME, acceptedMinecraftVersions = "[1.7.10]")
+@Mod(modid = GT6M_Mod.MODID, version = GT6M_Mod.VERSION, name = GT6M_Mod.MODNAME,
+    acceptedMinecraftVersions = "[1.7.10]", dependencies = "")
 public class GT6M_Mod extends Abstract_Mod {
 
     public static final String MODID = "GRADLETOKEN_MODID";
